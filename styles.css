@@ -19,3 +19,53 @@ p{
 /*h1,h2{ de esa forma podemos dale estilos a varias etiquetas a la ves
     color: red;
 }*/
+
+/*
+p.parrafo{ /*Para darle estilo a solo los parrafos con la clase parrafo
+    color: white;
+    font-size: 48px;
+    background-color: black;
+}
+
+.parrafo2{
+    font-size: 24px;
+}
+
+#indentificacion{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: chartreuse;
+}
+*/
+/*
+p a{
+    background-color: gray;
+}
+    EN esta seccion se explico el selector desendente ya que primero toma la etiqueta que contiene a la que se aplicara el estilo*/
+/*
+h1 > a{
+    color: coral;
+    font-size: 48px;
+    background-color: green;
+}
+
+h1 > p > a { aqui vemos la aplicacion del selector hijo en donde le tamos estilo a etiquedatas encapsuladas o dentro de otras etiquetas
+    color: firebrick;
+    font-size: 72px;
+}
+    */
+/*
+h2 + h3{ aqui vemo el selector adyacente quien pone estilo a la etiqueca mas cercana a que le agregaamo el +
+    color: fuchsia;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*/
+
+/*
+[id]{ selector de atributo este da estilos a todas las etiquetas que cuenten con ese atributo
+    color: red;
+    font-size: 48px;
+    background-attachment: pink;
+}
+*/
